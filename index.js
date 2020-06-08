@@ -27,6 +27,6 @@ window.addEventListener("load", () => {
     bubble.style.animation = `jump 1s ease`;
     bubble.addEventListener("animationend", function() {
       visual.removeChild(this);
-    });
+    });  
   };
 });
